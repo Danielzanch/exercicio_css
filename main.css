@@ -1,0 +1,147 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* */
+body > header {
+    background-color: #006aff;
+    padding: 16px 0;
+    color: #f5f6fa;
+}
+
+/* */
+header .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* Edita as configurações do texto do link */
+header li {
+    display: inline;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-left: 16px;
+}
+
+/* Editar as configurações do texto de orientação do link leia mais */
+header li a {
+    color: #f5f6fa;
+    text-decoration: none;
+}
+
+/*  */
+.container {
+    width: 1366px;
+    margin: 0 auto;
+}
+
+/* */
+.articles {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+/* */
+.articles article img {
+    /*height: 180px;*/
+    width: 100%;
+}
+
+/* */
+.articles article {
+    width: 30%;
+}
+
+/* */
+section {
+    padding: 16px 0;
+}
+
+/* */
+section h2,
+.articles article {
+    margin-bottom: 16px;
+}
+
+/* */
+.articles article h3 {
+    margin-top: 8px;
+    margin-bottom: 8;
+}
+
+/*  */
+.articles article a {
+    background-color: rgb(57, 57, 236);
+    color: white;
+    padding: 8px;
+    display: inline-block;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 8px;
+}
+
+/* Retira o sublinhado do link ler mais */
+.articles article a:hover {
+    text-decoration: underline;
+}
+
+/* Altera o formato da letra do titulo da noticia e a descrição do ler mais*/
+.articles article p,
+.articles article a {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Altera o tamanho do texto do titulo das noticias */
+.articles article h3 {
+    font-size: 24px;
+}
+
+/* Altera o tamanho dos textos de sub-titulo */
+section h2 {
+    font-size: 32px;
+}
+
+/* Altera a cor do fundo do tema sport */
+#sports {
+    background-color: rgba(255, 0, 0, 0.1);
+}
+
+/* Altera a cor do fundo do tema economia */
+#eco {
+    background-color: rgba(255, 145, 0, 0.1);
+}
+
+/* Altera a cor do fundo do tema politica */
+#politica {
+    background-color: rgba(255, 247, 0, 0.1);
+}  
+
+#entretenimento {
+    background-color: rgba(30, 255, 0, 0.1);
+}
+
+#tecnologia {
+    background-color: rgba(21, 0, 255, 0.1);
+}
+
+/* altera a cor do fundo do link do tema sports */
+#sports .articles article a {
+    background-color: rgba(255, 0, 0, 1);
+}
+
+/* Altera a cor do fundo do link do tema economia  */
+#eco .articles article a {
+    background-color: rgba(255, 145, 0, 1);
+}
+
+#entretenimento .articles article a {
+    background-color: rgba(30, 255, 0, 1);
+}
+
+#tecnologia .articles article a {
+    background-color: rgba(21, 0, 255, 1);
+}
